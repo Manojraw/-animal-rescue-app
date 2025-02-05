@@ -1,0 +1,37 @@
+{
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "xprotocol",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 33060,
+      "driver": "MySQL",
+      "name": "Mysql Local",
+      "username": "root",
+      "connectionTimeout": 30,
+      "password": "Manoj123",
+      "database": "animale"
+    }
+  ],
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "mysql-connector-j-9.0.0.jar"
+  ],
+  "java.project.sourcePaths": ["src/main/java"],
+  "maven.view": "flat",
+
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.project.outputPath": "bin",
+
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-20",
+      "path": "C:\\Program Files\\Java\\jdk-20"
+    }
+  ],
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.compile.nullAnalysis.mode": "automatic"
+}
